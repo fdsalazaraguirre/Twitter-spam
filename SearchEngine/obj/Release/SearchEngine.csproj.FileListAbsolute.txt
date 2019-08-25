@@ -1,0 +1,11 @@
+C:\HOME\twitter\SearchEngine\bin\Release\SearchEngine.dll
+C:\HOME\twitter\SearchEngine\bin\Release\SearchEngine.pdb
+C:\HOME\twitter\SearchEngine\bin\Release\TweetinCore.dll
+C:\HOME\twitter\SearchEngine\bin\Release\Tweetinvi.dll
+C:\HOME\twitter\SearchEngine\bin\Release\TweetinCore.pdb
+C:\HOME\twitter\SearchEngine\bin\Release\Tweetinvi.pdb
+C:\HOME\twitter\SearchEngine\obj\Release\SearchEngine.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\SearchEngine\obj\Release\Tweetinvi.Properties.Resources.resources
+C:\HOME\twitter\SearchEngine\obj\Release\SearchEngine.csproj.GenerateResource.Cache
+C:\HOME\twitter\SearchEngine\obj\Release\SearchEngine.dll
+C:\HOME\twitter\SearchEngine\obj\Release\SearchEngine.pdb

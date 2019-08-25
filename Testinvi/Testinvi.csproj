@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBD2D87F-E83B-4FE7-B4C7-3DAF61472D30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Testinvi</RootNamespace>
+    <AssemblyName>Testinvi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Moq">
+      <HintPath>.\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Streaminvi\FilteredStreamTests.cs" />
+    <Compile Include="Streaminvi\SimpleStreamTests.cs" />
+    <Compile Include="Tweetinvi\FavouriteTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tweetinvi\StringExtensionTests.cs" />
+    <Compile Include="Tweetinvi\TokenCreatorTests.cs" />
+    <Compile Include="TokenTestSingleton.cs" />
+    <Compile Include="Tweetinvi\TokenTests.cs" />
+    <Compile Include="Tweetinvi\TokenUserTests.cs" />
+    <Compile Include="Tweetinvi\TweetTests.cs" />
+    <Compile Include="Tweetinvi\TwitterObjectTests.cs" />
+    <Compile Include="Tweetinvi\UserSearchEngineTests.cs" />
+    <Compile Include="Tweetinvi\UserTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\oAuthConnection\oAuthConnection.csproj">
+      <Project>{30BC9765-D495-449A-8E3E-0AD06D30B7FF}</Project>
+      <Name>oAuthConnection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SearchEngine\SearchEngine.csproj">
+      <Project>{50A7EC83-92A5-4677-9121-28E015217942}</Project>
+      <Name>SearchEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Streaminvi\Streaminvi.csproj">
+      <Project>{60696520-C228-46C3-93B0-5048853B124A}</Project>
+      <Name>Streaminvi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TweetinCore\TweetinCore.csproj">
+      <Project>{2DA9C20D-E072-4152-BEEE-11FEAFF61E0F}</Project>
+      <Name>TweetinCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tweetinvi\Tweetinvi.csproj">
+      <Project>{58567CC3-67D4-47BD-94D8-1E1E5CDD71C6}</Project>
+      <Name>Tweetinvi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TwitterToken\TwitterToken.csproj">
+      <Project>{ac583672-f6ba-462e-9944-ff8e31f14102}</Project>
+      <Name>TwitterToken</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UILibrary\UILibrary.csproj">
+      <Project>{6134C033-04B9-4A87-BBCA-061AC6AA259A}</Project>
+      <Name>UILibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

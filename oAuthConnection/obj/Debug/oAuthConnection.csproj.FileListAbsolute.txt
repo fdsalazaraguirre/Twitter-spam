@@ -1,0 +1,7 @@
+C:\HOME\twitter\oAuthConnection\bin\Debug\oAuthConnection.dll
+C:\HOME\twitter\oAuthConnection\bin\Debug\oAuthConnection.pdb
+C:\HOME\twitter\oAuthConnection\bin\Debug\TweetinCore.dll
+C:\HOME\twitter\oAuthConnection\bin\Debug\TweetinCore.pdb
+C:\HOME\twitter\oAuthConnection\obj\Debug\oAuthConnection.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\oAuthConnection\obj\Debug\oAuthConnection.dll
+C:\HOME\twitter\oAuthConnection\obj\Debug\oAuthConnection.pdb

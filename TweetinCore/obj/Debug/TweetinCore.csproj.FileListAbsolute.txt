@@ -1,0 +1,5 @@
+C:\HOME\twitter\TweetinCore\bin\Debug\TweetinCore.dll
+C:\HOME\twitter\TweetinCore\bin\Debug\TweetinCore.pdb
+C:\HOME\twitter\TweetinCore\obj\Debug\TweetinCore.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\TweetinCore\obj\Debug\TweetinCore.dll
+C:\HOME\twitter\TweetinCore\obj\Debug\TweetinCore.pdb

@@ -1,0 +1,12 @@
+C:\HOME\twitter\UILibrary\bin\Release\UILibrary.dll
+C:\HOME\twitter\UILibrary\bin\Release\UILibrary.pdb
+C:\HOME\twitter\UILibrary\bin\Release\Microsoft.Practices.Prism.dll
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\UILibrary\obj\Release\View\ValidateApplicationCaptchaWindow.baml
+C:\HOME\twitter\UILibrary\obj\Release\View\ValidateApplicationCaptchaWindow.g.cs
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary_MarkupCompile.cache
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.g.resources
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.Properties.Resources.resources
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.csproj.GenerateResource.Cache
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.dll
+C:\HOME\twitter\UILibrary\obj\Release\UILibrary.pdb

@@ -1,0 +1,13 @@
+C:\HOME\twitter\TwitterToken\bin\Debug\TwitterToken.dll
+C:\HOME\twitter\TwitterToken\bin\Debug\TwitterToken.pdb
+C:\HOME\twitter\TwitterToken\bin\Debug\oAuthConnection.dll
+C:\HOME\twitter\TwitterToken\bin\Debug\TweetinCore.dll
+C:\HOME\twitter\TwitterToken\bin\Debug\Tweetinvi.dll
+C:\HOME\twitter\TwitterToken\bin\Debug\oAuthConnection.pdb
+C:\HOME\twitter\TwitterToken\bin\Debug\TweetinCore.pdb
+C:\HOME\twitter\TwitterToken\bin\Debug\Tweetinvi.pdb
+C:\HOME\twitter\TwitterToken\obj\Debug\TwitterToken.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\TwitterToken\obj\Debug\TwitterToken.Properties.Resources.resources
+C:\HOME\twitter\TwitterToken\obj\Debug\TwitterToken.csproj.GenerateResource.Cache
+C:\HOME\twitter\TwitterToken\obj\Debug\TwitterToken.dll
+C:\HOME\twitter\TwitterToken\obj\Debug\TwitterToken.pdb

@@ -1,0 +1,11 @@
+C:\HOME\twitter\Streaminvi\bin\Release\Streaminvi.dll
+C:\HOME\twitter\Streaminvi\bin\Release\Streaminvi.pdb
+C:\HOME\twitter\Streaminvi\bin\Release\TweetinCore.dll
+C:\HOME\twitter\Streaminvi\bin\Release\Tweetinvi.dll
+C:\HOME\twitter\Streaminvi\bin\Release\TweetinCore.pdb
+C:\HOME\twitter\Streaminvi\bin\Release\Tweetinvi.pdb
+C:\HOME\twitter\Streaminvi\obj\Release\Streaminvi.csprojResolveAssemblyReference.cache
+C:\HOME\twitter\Streaminvi\obj\Release\Streaminvi.Properties.Resources.resources
+C:\HOME\twitter\Streaminvi\obj\Release\Streaminvi.csproj.GenerateResource.Cache
+C:\HOME\twitter\Streaminvi\obj\Release\Streaminvi.dll
+C:\HOME\twitter\Streaminvi\obj\Release\Streaminvi.pdb
